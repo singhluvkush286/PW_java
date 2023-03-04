@@ -2,10 +2,12 @@
  Computer is an electronic device which take input from the user and process the data according to the data according to the input given and give the output .
 
 2. What is RAM ? 
-   RAM stand for "Random Access Memory" .RAM is made up of semiconductor usually which is faster than Hardisk memory , to match the speed of processor we use use RAM in between them . 
+   RAM stand for "Random Access Memory" .RAM is made up of semiconductor usually which is faster than Hardisk memory , to match the speed of processor we use use RAM in
+   between them . 
 
 3. Where is the data stored in memory ?
-   Data is stored in the Hardisk memory of the computer which is non-volatile in nature . Nowadays , In most of the system people are using  SSD which is usually faster than Hardisk .
+   Data is stored in the Hardisk memory of the computer which is non-volatile in nature . Nowadays , In most of the system people are using  SSD which is usually 
+   faster than Hardisk .
  
 4.  What is the input device that allow you to type text and number in the computer system ?
     Keyboard .
