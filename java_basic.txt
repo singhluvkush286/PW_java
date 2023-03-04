@@ -1,0 +1,91 @@
+1. What is programming language ?
+   A programming language is a set of symbols, 
+   grammars and rules with the help of which one is able to translate algorithms to programs that will be executed by 
+   the computer.
+
+2. Why do we need programming language?
+   Programming helps in speeding up the input and output processes in a machine. It is important to automate, collect, 
+   manage, calculate, and analyze the processing of data and information accurately. Programming helps create software 
+   and applications that help computer and mobile users in daily  life. 
+
+3. What are the features of Java ?
+   Object Oriented
+   In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
+
+   Platform Independent
+   Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into 
+   platform specific machine, rather into platform-independent byte code. This byte code is distributed over the web 
+   and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.
+
+   Simple
+   Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+ 
+   Secure
+   With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are
+   based on public-key encryption.
+
+   Architecture-neutral
+   Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on
+   many processors, with the presence of Java runtime system.
+
+   Portable
+   Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable.
+   The compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
+
+   Robust
+   Java makes an effort to eliminate error-prone situations by emphasizing mainly on compile time error checking and 
+   runtime checking.
+
+   Multithreaded
+   With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This
+   design feature allows the developers to construct interactive applications that can run smoothly.
+
+  Interpreted
+  Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development 
+  process is more rapid and analytical since the linking is an incremental and light-weight process.
+
+  High Performance
+  With the use of Just-In-Time compilers, Java enables high performance.
+
+  Distributed
+  Java is designed for the distributed environment of the internet.
+
+  Dynamic
+  Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. 
+  Java programs can carry an extensive amount of run-time information that can be used to verify and resolve accesses 
+  to objects at run-time.
+
+4. What is object ?
+   An object is the real time entity .
+   An object is the instance of the class.
+
+5. What is Class ?
+   A class is the type of data-type .
+   It's the template of the object .
+
+6.Explain about the main method in java ?
+  Genral syntax of main method---
+  public static void main(String[] args)
+
+  public: It is an access specifier. We should use a public keyword before the main() method so that JVM can identify 
+  the execution point of the program. If we use private, protected, and default before the main() method, it will not 
+  be visible to JVM.
+
+  static: You can make a method static by using the keyword static. We should call the main() method without creating
+  an object. Static methods are the method which invokes without creating the objects, so we do not need any object to
+  call the main() method.
+
+  void: In Java, every method has the return type. Void keyword acknowledges the compiler that main() method does not
+  return any value.
+
+  main(): It is a default signature which is predefined in the JVM. It is called by JVM to execute a program line by
+  line and end the execution after completion of this method. We can also overload the main() method.
+
+  String args[]: The main() method also accepts some data from the user. It accepts a group of strings, which is
+  called a string array. It is used to hold the command line arguments in the form of string values.
+   
+
+
+   
+   
+  

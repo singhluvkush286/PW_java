@@ -1,0 +1,28 @@
+1.How to check if git available in your system or not ?
+  git --version
+
+2.How to intialize a new git repostiory ?
+  git init
+ 
+3.How to tell git about your name and username ?
+  git config -name "yourname"
+  git cofig -username "username"
+
+4.How to add a file to stagging area ?
+  git add file-name
+
+5.How to remove a file from staging area ?
+ git -rm file-name
+
+6.How to make a commit ?
+ git commit -m "commit message"
+
+7.How to send your changes to a remote repostiory ?
+ git push
+
+8. what is the difference between clone and pull?
+   clone:
+   git clone command is used to copy the file from the the git repository .
+
+   pull:
+   git pull command is used to take the file from the git repostiory . 
