@@ -1,0 +1,40 @@
+1. What is statically typed and Dynamically programming language ?
+
+   In static typed programming language type are known and checked at 
+   compile time and all the things are done by compiler.
+   Example-Java , C++.
+   Example - javascript , python .
+
+2. What is variable in java ?
+   Variable are something which store some value at a particular memory 
+   location which is assign to it .
+
+3. How to assign value to variable?
+   Genral Syntax--
+   data-type variable-name = value;
+
+   Example
+   int num=10;
+
+4. What are the primitive data types?
+   Primitive data type are those data type whose value can't be divided
+   int further part.   
+
+5. What are identifiers in Java ?
+   Identifiers are the name given to any variable in the program.
+   Rule to define idenfier--
+   *only number character $ and _  are allowed.
+   *can't start with number.
+   *No keyword are allowed .
+   *No special charcter are allowed.
+
+6. list the operator in java ?
+   1.Arithmetic Operator.
+   2.Assignment operator.
+   3.Logical Operator.
+   4.Relational Operator.
+   5.Increment or Decrement Operator.
+
+7. Explain About the Increment or Decrement operator ?
+   Increment operartor increase the value of the variable by one .
+   Decrement operartor decrease the value of the variable by one . 
