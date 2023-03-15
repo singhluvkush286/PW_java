@@ -1,0 +1,86 @@
+1. What are the conditional operators in Java ?
+ In java there are 3 types of conditional operators
+ 1. AND operators
+ 2. OR operators
+ 3. NOT operators 
+ 
+2. What are the types of operators present in java based on operand?
+ Types of Operators in java 
+ 1. Assignment Operators
+ 2. Arithmetic Operators
+ 3. Logical Operators
+ 4. Relational Operators
+ 5. Increment or Decrement Operators
+
+3. What is the use of switch case in java ? 
+   Switch case is used to select one block out of many block.
+
+4. What  are the priority level of arithmetic operators in java ?
+   * / % + -
+
+5. what are the Conditional statements and the use of conditional statements?
+In java there are four types of conditional operators:-
+     1. if-statement
+        If the condition inside the if statement is true then the if block will be executed otherwise it will skip
+        the if block . 
+     2. if-else statement
+        If the condition inside the if statement is true then if block will be executed otherwise else block will
+        be executed .
+     3. else-if ladder
+        It will check all the if condition , and whichever condition is true that block of code will be executed
+        if no condition is true then else block will be executed.
+
+     4. Nested if-else statement
+        When if-else is present inside the if statement then it is called the nested if-else statement
+
+       The main use of if statement is to check the condition between two blocks of statement .
+
+6. what is the syntax of if-else statement?
+  if(condition-statement)
+ {
+      --- if block statement --
+ }
+else 
+{
+  --- else block statement ---
+}
+
+
+7 what are three iterative statements in java  ?
+Three iterative statement are .
+1. for- loop
+2. While loop 
+3. do-while loop
+
+
+8. Write the difference between for-loop and do- while loop ?
+
+   for-loop
+    General syntax --
+     for(initialisation; condition; increment or Decrement)
+{
+    for-loop block
+}
+While-loop
+    General syntax -
+do
+{
+    do-while loop block
+}While(condition);
+
+
+
+9. Write a program to print number between 1 to 10 .
+
+import java.util.*;
+public class program
+{
+   public static void main(String[]     args)
+  {
+   int  num;
+   for(num=0;num<=10;num++)
+  {
+     System.out.println(num);
+  }
+}
+}
