@@ -1,0 +1,49 @@
+1. How to create a Object in java ?
+   We can create a object with the use of new keyword in java .
+   Genral Syntax to create Object is :-
+
+   class-name ref-variable-name = new class-constructor();
+
+2. What is the use of new keyword in Java ?
+   new keyword in java is used to allocate memory location and we can create object and declare array with the use of new 
+   keyword .
+  
+3. What are the differnce type of variable ?
+   There are three main types of varibles in Java are :-
+   1.Static Variable
+   2.Local Variable 
+   3.Instance Variable
+
+4. What is the Difference between instance variable and local variable ?
+   Instance Variable
+
+   Instance variable is created at the time of the object creation and destroy at the time of object destruction .
+   
+   Scope of Instance variable is same as the scope of the object .
+
+   Stored in heap memory.
+  
+   Instace variable should be declare with in the class and outside the any method or block or constructor .
+
+   default value is initialize to the Instabce variable for int 0 , string null , boolean false .
+
+   Local Variable 
+
+   Local variable is declare inside the method and stack of the class .
+
+   Scope of the local variable is same as block in which it present .
+
+   No default value is initialize to the local variable.
+
+
+5. In which area memory is allocated for the instance variable and local variable ?
+   for local varialbe :-
+                          stack area 
+   for Instance varialbe :-
+                          heap area 
+
+6.What is Method Overloading ?
+  When two or more method having the same name with the different parameter and different return type then it is known
+  Method Overloading. 
+
+   
