@@ -1,0 +1,74 @@
+1. What do you mean by array ?
+
+   Array is collection of similar data types & we can store similar data together with the use of array .
+   we can access the element inside the array with use of index.
+  
+2.How to create a array ? 
+
+   Genral Syntax---
+   1.
+   data-type array_name[] = {0,0,0,0,0,0};
+
+   2.
+   data-type array_name[] = new array-type[array-size];
+
+3.Can we change the array at run-time ?
+
+  You can't change the size of the array after it's constructed. However, you can change the number
+  of elements in an ArrayList whenever you want.
+
+4.Can we assign array without declare the size of the array ?
+
+  No, we can't but we can create a array with define the element at compile time then JVM will assign the memory at
+  run-time .
+
+
+5.What is default value of Array ?
+  
+ Default value varries from the type of array if it is int then the value will be 0, string then null & boolean false .
+
+6.What is the 1D array ?
+
+ 1D array is the most simplest form of array , all the element in the array are assigned linear . we can access the
+ element with thier index .
+
+
+7.Write a program on 2-D array ?
+
+  //Find the maximum element in the array
+  
+  import java.util.*;
+
+  public class test
+  {
+     public static void main(String args[])
+     {
+       int arr[][] = new arr[3][3];
+       Scanner input = new Scanner(System.in);
+       for(int i=0;i<arr.length;i++)
+       {
+           for(int j=0;j<arr[i].length;j++)
+           {
+              arr[i][j]=input.nextInt();
+           }
+       }  
+       for(int n[] : arr)
+       {
+           for(int j : n)
+           {
+              System.out.println(j);
+           }
+           System.out.println();
+       }
+     }
+   }
+
+ 
+    
+            
+              
+           
+
+
+
+
