@@ -1,0 +1,60 @@
+1. How do you concate two string in java ? Give example 
+
+  We can concate String in java with two ways :-
+  
+  i.  Using concat() method in java
+      String s1,s2,s3;
+      s1="Java";
+      s2="programming";
+      s3=s1.concat(s2);
+      
+      it will concat both the string make a new string object , it can't make any change 
+      in existing string.
+   
+  ii. Using + Operatorin java  
+      String s1,s2,s3;
+      s1="Java";
+      s2="programming";
+      s3=s1+s2;
+      
+      it will concat both the string make a new string object in the heap memory ,
+      it can't make any change in existing string.
+      Using + operator we can concat as many string we want.
+
+2. How do you find length of string in java ?
+   
+  Using length() method we can find the length of the string .
+  
+  example:-
+   
+  s1="Java";
+  s1.length();
+
+  it will return 4 as length of string in java.
+
+3.How do you compare two string in java ?
+   We can compare String in java with two ways :-
+  
+  i.  Using equals() method in java
+      String s1,s2,s3;
+      s1="Java";
+      s2="programming";
+      s1.equals(s2);
+      
+      it will compare the content of the string , return true if the content of both the 
+      string is same .
+      Above string will return false, because the content of both the string is different.
+   
+  ii. Using == Operatorin java  
+      String s1,s2,s3;
+      s1="Java";
+      s2="programming";
+      s1==s2;
+      
+      it will compare the reference of the string , return true if the reference of both the 
+      string is same .
+      Above string will return false, because the reference of both the string is 
+      different.
+   
+
+

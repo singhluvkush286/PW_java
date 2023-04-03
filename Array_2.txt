@@ -1,0 +1,34 @@
+1. What is default value of array in differnet of differnet data types ?
+
+   String :- null
+   int :- 0
+   boolean :- false
+
+2. Can we pass -ve number as the array in size ?
+   No, we can't pass the -ve value as a array size.
+
+3. Where is the aaray stored in JVM ?
+  
+   Reference of the array is stored in Stack memeory . Object of that array will be created in heap memoary .
+
+4. What is Disadvantage of array ?
+   
+   The size of the array cannot be increased or decreased once it is declared—arrays have a fixed size.
+   Java cannot store heterogeneous data. It can only store a single type of primitives.
+
+5. What is the anonymous array in java ?
+   
+    when we can't declare any variable for the array or use directly , then we can say that array as a anonymous array.
+
+6. What are the different ways to traverse a array ?
+
+  i. Using for-loop
+  ii. Using enhanced for-loop
+
+7. What is the differnce between length() and length ?
+
+   length():-
+                It is the method of the string  class .
+   length:-
+                It's the property of array-type class in java .
+   
