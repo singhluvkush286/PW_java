@@ -1,0 +1,6 @@
+What is Muatbale string in java ?
+
+Mutable string means that we make change in the string by using some built in function .
+We have two built in class in java for the mutable string .
+1. stringBuffer
+2.StringBuilder

@@ -1,0 +1,30 @@
+1. What is the need of static keyword in java ?
+   When we use static keyword to declare any method then we don't need any object to call it.
+
+2.What is the class loading and how does the java program executes ?
+  In java class loading is the loading class file into JVM at runtime . It's responsilbe for loading classes from varoius 
+  source of file system , network and database and making them available for the JVM to execute 
+  Class Loading process is divided into three categories :-
+  1.Loading
+  2.Linking
+  3.Intialization
+
+3.Can we create local variable as a static ?
+  Yeah , we can create a local variable as static .
+
+4.Why is static block is executed is before the execution of the of the of the main block ?
+  Because the main is the place where the execution of the program begins , when main method call then all the class load 
+  after that static block will executes
+
+5.Why is static method also called a class method ?
+ When we declare any method as a static we don't need any object to call it we can simply call it anywhere in the class .
+
+6.What is the use of static block in java ?
+ Static block is the block where we store static variables of the class , it will get executed after when the class get 
+ loaded .
+
+7.Differnce static and instance variable ?
+  Static value doen't depened upon on the object where instance variable value depend on the object .
+
+8.Differnce between the static and non-static variable ?
+  We don't need object to use static variable and we need object to use non-static keyword .
