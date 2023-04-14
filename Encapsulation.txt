@@ -1,0 +1,54 @@
+1. What is Encapsulation in java ? Why it is called data hiding?
+ Binding up all the properties and method of the class is known Encapsulation and Encapsulation help us to achieve the abstraction whih hide the information which is not important for the user .
+
+2.What is important features of Encapsulation ?
+
+  Data Abstraction
+  Data Hiding
+
+3.What are the getter and setter method in java expali with example ?
+  Setter and getter method are used to set and get the value of instance variable in the class.
+
+  example 
+  public class student{
+  int age;
+  String name;
+  public void set()
+  {
+     this.age=20;
+     this.name=Luvkush;
+  }
+   public void get()
+  {
+     System.out.println(age);
+     System.out.println(name);
+
+  }
+
+
+4.What is this keyword in java explain with example ?
+ This keyword is used to represnt the current object of the class.
+
+ example 
+  public class student{
+  int age;
+  String name;
+  public void set()
+  {
+     this.age=20;
+     this.name=Luvkush;
+  }
+   public void get()
+  {
+     System.out.println(age);
+     System.out.println(name);
+
+  }
+
+5.What is advantage of Encapsulation
+  Data Abstraction
+  Data Hiding
+
+6.How to achieve Encapsulation in java ?
+ Encapsulation is one of the four fundamental principles of object-oriented programming (OOP) and refers to the mechanism of restricting direct access to an object's internal state or data. In Java, encapsulation is achieved through the use of access modifiers and getters/setters methods.
+  
