@@ -1,0 +1,115 @@
+1. What is the Inheritance in java ?
+
+  Inheritance is a process in which child class acquire a properties of parent class . In java we can achive inheritance by
+  using extends keyword .
+
+2.What is the superclass and sub-class in java ?
+
+ Parent class of the every class which is declare is known as super class .
+ By default super class of every class is Object class .
+ 
+ Sub-class is class which is derived from the parent class , by default parent class of every class is Object class .
+
+3.How is inheriatnce achieve and implementesd in Java ?
+
+  Inheritance is achieved by extends keyword in java & we can achieve code reusibilty in java .
+
+4.What is Polymorphism in java ?
+
+  Polymorphism is process in which we can represnt one thing in many ways.
+
+5.Differeniate b/w Method overloading and overriding ?
+
+  method overloading-
+         
+     * Compile time Polymorphism
+     * It can be done without Inheritance .
+     * It can't depend on the prototype of the method.  
+  
+   method overriding -
+         
+     * Run time Polymorphism
+     * It can't be done without Inheritance .
+     * It is depend on the prototype of the method.  
+
+6.What is the abstraction explain with example ?
+
+  Abstraction of hidding the implementation part from the user .
+  To achieve abstraction in java we can use abstract keyword in java .
+
+  Example 
+
+  abstract class Animal {
+    protected String name;
+    protected int age;
+    
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    public abstract void makeSound();
+}
+
+class Dog extends Animal {
+    public Dog(String name, int age) {
+        super(name, age);
+    }
+    
+    public void makeSound() {
+        System.out.println("Woof!");
+    }
+}
+
+class Cat extends Animal {
+    public Cat(String name, int age) {
+        super(name, age);
+    }
+    
+    public void makeSound() {
+        System.out.println("Meow!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal myDog = new Dog("Fido", 3);
+        Animal myCat = new Cat("Fluffy", 2);
+        
+        myDog.makeSound(); // Output: Woof!
+        myCat.makeSound(); // Output: Meow!
+    }
+}
+
+
+7. Differenciate b/w Anstract method and final method ?
+ 
+  abstract method doen't have the implemntation part in it , it only have declaration part in it .
+  while final method have the implementation part in it , but it can't be overriden in child class .
+
+8.What is the final class in java ?
+
+  Final class is class which can't be modify further , final classs can't be particiapte in Inheritance.
+
+9.Differnciate between abstraction and Encapsulation ?
+ 
+  Abstraction:
+   Abstraction is a process of focusing on the essential features of an object and ignoring the non-essential features. It 
+   allows you to create a model of a real-world object by focusing only on the most important characteristics. Abstraction
+   is achieved using abstract classes and interfaces in Java.
+
+  Encapsulation:
+    Encapsulation is a technique of hiding the implementation details of an object from the outside world and providing
+    a public interface to access the object. Encapsulation ensures that the data is accessed only through defined 
+    methods and protects the data from unauthorized access. Encapsulation is achieved using access modifiers such 
+    as private, protected, and public in Java.
+
+
+10.Differenciate b/w runtime polymorphism and compile time polymorphism ?
+
+  Polymrphism which is achieve at the runtime is known as runtime polymorphism and the polymorphism which is achieve at 
+  the compile is known as compile time polymorphism .
+
+ 
+
+  
